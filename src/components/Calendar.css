@@ -158,9 +158,10 @@
   }
 
   .month-selector {
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
     margin-bottom: 20px;
+    justify-content: space-between;
   }
 
   .current-month {
@@ -168,9 +169,10 @@
   }
 
   .month-nav-button {
-    padding: 8px 15px;
-    font-size: 0.8em;
-    width: 100%;
+    padding: 6px 12px;
+    font-size: 0.75em;
+    width: auto;
+    min-width: 80px;
   }
 
   .calendar-grid {
