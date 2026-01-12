@@ -145,45 +145,66 @@
 
 @media (max-width: 768px) {
   .calendar-container {
-    padding: 30px 15px;
+    padding: 20px 10px;
   }
 
   .calendar-title {
-    font-size: 1.5em;
+    font-size: 1.3em;
+    line-height: 1.3;
   }
 
   .calendar-subtitle {
-    font-size: 0.9em;
+    font-size: 0.85em;
   }
 
   .month-selector {
     flex-direction: column;
     gap: 10px;
+    margin-bottom: 20px;
   }
 
   .current-month {
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
 
   .month-nav-button {
     padding: 8px 15px;
-    font-size: 0.85em;
+    font-size: 0.8em;
     width: 100%;
   }
 
   .calendar-grid {
-    gap: 5px;
+    gap: 3px;
+    max-width: 100%;
   }
-  
+
+  .calendar-header {
+    font-size: 0.7em;
+    padding: 5px 2px;
+  }
+
   .calendar-day {
-    font-size: 0.8em;
+    padding: 2px;
+    border-radius: 6px;
+    min-height: 40px;
+    overflow: hidden;
   }
-  
+
+  .calendar-day.special-day {
+    border: 1px solid #e91e63;
+  }
+
+  .calendar-day.special-day:hover {
+    transform: scale(1.05);
+  }
+
   .day-number {
-    font-size: 1em;
+    font-size: 0.75em;
+    line-height: 1;
   }
 
   .heart-indicator {
-    font-size: 1em;
+    font-size: 0.8em;
+    margin-top: 1px;
   }
 }
