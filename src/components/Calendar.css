@@ -144,13 +144,43 @@
 }
 
 @media (max-width: 768px) {
+  .calendar-container {
+    padding: 30px 15px;
+  }
+
+  .calendar-title {
+    font-size: 1.5em;
+  }
+
+  .calendar-subtitle {
+    font-size: 0.9em;
+  }
+
+  .month-selector {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .current-month {
+    font-size: 1.3em;
+  }
+
+  .month-nav-button {
+    padding: 8px 15px;
+    font-size: 0.85em;
+    width: 100%;
+  }
+
   .calendar-grid {
     gap: 5px;
   }
-
+  
   .calendar-day {
     font-size: 0.8em;
   }
+  
+  .day-number {
+    font-size: 1em;
 
   .heart-indicator {
     font-size: 1em;

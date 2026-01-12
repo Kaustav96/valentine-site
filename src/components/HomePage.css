@@ -48,6 +48,8 @@
   border-radius: 30px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
   max-width: 500px;
+  width: 90%;
+  margin: 0 20px;
   animation: fade-in 1s ease-in;
 }
 
@@ -102,5 +104,28 @@
   }
   50% {
     transform: scale(1.05);
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    padding: 40px 25px;
+    margin: 0 15px;
+    border-radius: 20px;
+  }
+
+  .title {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+
+  .message {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+  }
+
+  .open-button {
+    padding: 15px 35px;
+    font-size: 1.1em;
   }
 }
