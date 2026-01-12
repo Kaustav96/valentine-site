@@ -43,7 +43,7 @@ function Calendar() {
       },
       '24': {
         title: "First Pub Outing 🍻",
-        message: "24th August 2025 - Our first pub outing at Reservoir! Yes, you were late and I got irritated when you sat on my face 😤, but looking back now, even our silly fights are precious memories. That's just us being comfortable with each other!",
+        message: "24th August 2025 - Our first pub outing at Reservoir! We had so much fun together, and even the little moments of you being late and us being silly made it special. Those playful moments just show how comfortable we are with each other!",
         images: [`${process.env.PUBLIC_URL}/images/aug24-1.jpg`,`${process.env.PUBLIC_URL}/images/aug24-2.jpg`],
         hasMedia: true
       }
