@@ -77,6 +77,13 @@ function Calendar() {
         images: [`${process.env.PUBLIC_URL}/images/jan10-1.jpg`, `${process.env.PUBLIC_URL}/images/jan10-2.jpg`],
         hasMedia: true
         // video: `${process.env.PUBLIC_URL}/images/jan10-video.mp4` // Optional: add a video
+      },
+      '23': {
+        title: "Our first flight together ✈️💕",
+        message: "23rd January 2026 - Our first flight together, where we go and see each others parents for first time and hoping everything goes well. I'm so proud of us for taking this step together. Here's to many more journeys and adventures with you by my side.",
+        images: [],
+        hasMedia: true
+        // video: `${process.env.PUBLIC_URL}/images/jan10-video.mp4` // Optional: add a video
       }
     }
   };
