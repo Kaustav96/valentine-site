@@ -76,14 +76,18 @@ function Calendar() {
         message: "10th January 2026 - Seven beautiful months together! Our first scooty ride - even though we didn't go far, being with you made it perfect. And our first skincare session together! From adventures to self-care, every moment with you is special.",
         images: [`${process.env.PUBLIC_URL}/images/jan10-1.jpg`, `${process.env.PUBLIC_URL}/images/jan10-2.jpg`],
         hasMedia: true
-        // video: `${process.env.PUBLIC_URL}/images/jan10-video.mp4` // Optional: add a video
+      },
+      '16': {
+        title: "7You getting your desired role in IBM! 🎉💼",
+        message: "Finally after 3 days of tension and month long interview process, you got your desired role in IBM. I'm so proud of you and all your hard work. This is just the beginning of many more achievements to come. Let's celebrate this milestone together!",
+        images: [],
+        hasMedia: true
       },
       '23': {
         title: "Our first flight together ✈️💕",
         message: "23rd January 2026 - Our first flight together, where we go and see each others parents for first time and hoping everything goes well. I'm so proud of us for taking this step together. Here's to many more journeys and adventures with you by my side.",
         images: [],
         hasMedia: true
-        // video: `${process.env.PUBLIC_URL}/images/jan10-video.mp4` // Optional: add a video
       }
     }
   };
