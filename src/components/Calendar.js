@@ -59,7 +59,7 @@ function Calendar() {
     'December-2025': {
       '25': {
         title: "First Christmas Together 🎄",
-        message: "25th December 2025 - Our first Christmas together! We went to Jollygrant and had drinks together for the first time. It felt so special celebrating this day with you. Here's to many more holidays together!",
+        message: "25th December 2025 - Our first Christmas together! We went to Jollyganj and had drinks together for the first time. It felt so special celebrating this day with you. Here's to many more holidays together!",
         images: [`${process.env.PUBLIC_URL}/images/dec25-1.jpg`, `${process.env.PUBLIC_URL}/images/dec25-2.jpg`],
         hasMedia: true
       }
