@@ -78,9 +78,15 @@ function Calendar() {
         hasMedia: true
       },
       '16': {
-        title: "7You getting your desired role in IBM! 🎉💼",
+        title: "You getting your desired role in IBM! 🎉💼",
         message: "Finally after 3 days of tension and month long interview process, you got your desired role in IBM. I'm so proud of you and all your hard work. This is just the beginning of many more achievements to come. Let's celebrate this milestone together!",
         images: [],
+        hasMedia: true
+      },
+      '18': {
+        title: "Our first stand-up comedy show together 😂🎤",
+        message: "18th January 2026 - Our first stand-up comedy show together! We laughed so hard that our cheeks hurt. Sharing those joyful moments with you makes everything better. Can't wait for more fun evenings/nights like this!",
+        images: [`${process.env.PUBLIC_URL}/images/jan18-2.jpg`, `${process.env.PUBLIC_URL}/images/jan18-3.jpg`,`${process.env.PUBLIC_URL}/images/jan18-1.jpg`],
         hasMedia: true
       },
       '23': {
