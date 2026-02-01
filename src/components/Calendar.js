@@ -94,6 +94,20 @@ function Calendar() {
         message: "23rd January 2026 - Our first flight together, where we go and see each others parents for first time and hoping everything goes well. I'm so proud of us for taking this step together. Here's to many more journeys and adventures with you by my side.",
         images: [],
         hasMedia: true
+      },
+      '24': {
+        title: "Full Family trip in Siliguri! 👨‍👩‍👧‍👦🌄",
+        message: "24th January 2026 - Our first full family trip to Siliguri! It was so special to see you bond with my family and create memories together. " +
+            "From exploring new places to sharing laughs, this trip was unforgettable because of you." +
+            "Also getting the nod from both our families for marriage is a huge milestone for us.",
+        images: [],
+        hasMedia: true
+      },
+      '31':{
+        title: "Hospital visit for general checkup",
+        message: "Our first hospital visit for my general checkup and getting Vitamin tablets",
+        images: [],
+        hasMedia: true
       }
     }
   };
